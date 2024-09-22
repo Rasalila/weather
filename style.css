@@ -1,0 +1,39 @@
+.wrapper {
+  height: 800px;
+  width: 1200px;
+  background: linear-gradient(
+    to bottom right,
+    rgba(0, 17, 255, 0.582),
+    rgb(243, 252, 127)
+  );
+}
+.giphy-embed {
+  margin-bottom: 15%;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+}
+
+.title {
+  font-weight: 800;
+  font-size: 40px;
+}
+
+.width {
+  font-weight: 600;
+  font-size: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.text {
+  font-weight: 400;
+  font-size: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
